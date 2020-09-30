@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-
 # Firebase Login
 
 firebase login
@@ -15,5 +12,3 @@ firebase deploy
 
 # Firebase modul install
 npm install firebase angularfire2         
-
-# angular-firebase
