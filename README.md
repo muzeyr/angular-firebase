@@ -12,3 +12,8 @@ firebase deploy
 
 # Firebase modul install
 npm install firebase angularfire2         
+
+# Ngrx
+ npm install @ngrx/core
+ npm install @ngrx/store
+ npm install @ngrx/effects

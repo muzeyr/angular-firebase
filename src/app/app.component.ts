@@ -19,7 +19,7 @@ export class AppComponent {
         this.todos = todos;
         console.log(this.todos);
       });
-      */
+   
       this.todos = db.list('/todos').valueChanges();
       console.log(this.todos);
       const tutRef = db.object('todos');
@@ -31,6 +31,6 @@ export class AppComponent {
       this.tutorials = db.list('/tutorials').valueChanges();
       console.log(this.tutorials);
 
-
+   */
   }
 }
