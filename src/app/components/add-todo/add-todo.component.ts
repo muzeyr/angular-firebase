@@ -20,9 +20,9 @@ export class AddTodoComponent implements OnInit {
               private readonly formBuilder: FormBuilder,
               private store: Store<Todo>) { 
  
-      let todo = store.select('addTodoReducer', 'counter');
+      //let todo = store.select('counterReducer', 'counter');
 
-      console.log(todo);
+      //console.log(todo);
 
       this.form = this.formBuilder.group({
           title: new FormControl(''),
